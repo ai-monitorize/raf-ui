@@ -1,0 +1,12 @@
+.header {
+  @apply flex w-full h-14 items-center justify-end;
+  background-color: #1c185f;
+  padding: 5px;
+
+  .header-button {
+    @apply flex items-center justify-center text-white hover:cursor-pointer font-bold rounded-xl;
+    padding: 10px 15px;
+    background-color: #5d60ef;
+    margin: 0;
+  }
+}
